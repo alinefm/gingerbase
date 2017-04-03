@@ -123,6 +123,7 @@ class ConfigTests(unittest.TestCase):
                 'tools.wokauth.on': False,
                 'tools.nocache.on': False,
                 'tools.staticdir.dir': '%s/ui/images' % pluginPrefix,
+                'tools.staticdir.content_types': {'svg': 'image/svg+xml'},
                 'tools.staticdir.on': True
             },
             '/ui/config/tab-ext.xml': {
